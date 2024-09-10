@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+.fonts
+.mu-plugins
+.plugins
+.uploads
+.vendor
+.env

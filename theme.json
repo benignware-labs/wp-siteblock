@@ -1,0 +1,235 @@
+{
+	"settings": {
+		"border": {
+			"color": true,
+			"radius": true
+		},
+		"position": {
+			"sticky": true
+		},
+		"color": {
+			"link": true,
+			"palette": [
+				{
+					"color": "brown",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "gray",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "green",
+					"name": "Success",
+					"slug": "success"
+				},
+				{
+					"color": "cyan",
+					"name": "Info",
+					"slug": "info"
+				},
+				{
+					"color": "orange",
+					"name": "Warning",
+					"slug": "Warning"
+				},
+				{
+					"color": "red",
+					"name": "Danger",
+					"slug": "danger"
+				},
+				{
+					"color": "white",
+					"name": "Light",
+					"slug": "light"
+				},
+				{
+					"color": "black",
+					"name": "Dark",
+					"slug": "dark"
+				},
+				{
+					"color": "#f8f9fa",
+					"name": "Body Tertiary",
+					"slug": "body-tertiary"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "840px",
+			"wideSize": "1140px"
+		},
+		"spacing": {
+			"blockGap": true,
+			"margin": true,
+			"padding": true,
+			"spacingScale": {
+				"steps": 0
+			},
+			"spacingSizes": [
+				{
+					"name": "1",
+					"size": "0.25rem",
+					"slug": "10"
+				},
+				{
+					"name": "2",
+					"size": "0.5rem",
+					"slug": "20"
+				},
+				{
+					"name": "3",
+					"size": "1rem",
+					"slug": "30"
+				},
+				{
+					"name": "4",
+					"size": "1.5rem",
+					"slug": "40"
+				},
+				{
+					"name": "5",
+					"size": "3rem",
+					"slug": "50"
+				}
+			],
+			"units": ["%", "px", "em", "rem", "vh", "vw", "svh", "svw", "dvh", "dvw", "lvh", "lvw"]
+		},
+		"typography": {
+			"lineHeight": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+					"name": "System Sans Serif",
+					"slug": "system-sans-serif"
+				},
+				{
+					"fontFamily": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+					"name": "System Monospace",
+					"slug": "system-monospace"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true,
+		"shadow": {
+			"defaultPresets": false,
+			"presets": [
+				{
+					"name": "Small",
+					"slug": "sm",
+					"shadow": "0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)"
+				},
+				{
+					"name": "Medium",
+					"slug": "md",
+					"shadow": "0 0.5rem 1rem rgba(0, 0, 0, 0.15)"
+				},
+				{
+					"name": "Large",
+					"slug": "lg",
+					"shadow": "0 1rem 3rem rgba(0, 0, 0, 0.175)"
+				},
+				{
+					"name": "Inset",
+					"slug": "inset",
+					"shadow": "inset 0 1px 2px rgba(0, 0, 0, 0.075)"
+				}
+			]
+		},
+		"dimensions": {
+			"minHeight": true
+		},
+		"blocks": {
+			"core/image": {
+				"lightbox": {
+					"allowEditing": true
+				}
+			}
+		}
+	},
+	"styles": {
+		"border": {
+			"color": "green"
+		},
+		"color": {
+			"background": "white",
+			"text": "black"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system-sans-serif)"
+		},
+		"elements": {
+			"button": {
+				"border": {
+					"radius": "0.25rem"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "white"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "0.5rem",
+						"left": "1rem",
+						"right": "1rem",
+						"top": "0.5rem"
+					}
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				},
+				"typography": {
+					"textDecoration": "none"
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "underline"
+					}
+				}
+			}
+		},
+		"blocks": {
+			"core/navigation": {
+				"spacing": {
+					"blockGap": "0",
+					"padding": {
+						"bottom": "0.5rem",
+						"left": "0px",
+						"right": "0px",
+						"top": "0.5rem"
+					}
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"lineHeight": "1.5"
+						},
+						"spacing": {
+							"padding": {
+								"bottom": "0.5rem",
+								"left": "0.5rem",
+								"right": "0.5rem",
+								"top": "0.5rem"
+							}
+						}
+					}
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "1.5rem",
+			"padding": {
+				"bottom": "0px",
+				"left": "0.75rem",
+				"right": "0.75rem",
+				"top": "0px"
+			}
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.4/theme.json"
+}

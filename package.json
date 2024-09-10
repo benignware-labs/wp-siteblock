@@ -1,0 +1,32 @@
+{
+  "name": "wp-siteblock",
+  "version": "1.0.0",
+  "description": "Yet another WordPress Kickstarter Theme",
+  "main": "public/main.js",
+  "style": "public/main.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -c webpack.config.mjs",
+    "watch": "webpack -c webpack.config.mjs --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.78.0",
+    "sass-loader": "^16.0.1",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.2",
+    "bootstrap-customize": "github:benignware-labs/bootstrap-customize",
+    "cssf": "github:benignware/cssf#v2",
+    "hamburgers": "^1.2.1"
+  }
+}
